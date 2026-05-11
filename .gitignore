@@ -1,0 +1,37 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+
+# Environment files
+.env
+.env.*
+
+# Editor settings
+.vscode/
+
+# Local notes
+docx skill.md
+
+# Local outputs (generated)
+iitb-ndvi-framework/outputs/**
+
+# Root outputs - keep deliverables only
+outputs/**
+!outputs/
+!outputs/workflow_diagram.png
+!outputs/explanation.docx
+
+# Large raster exports
+**/*.tif
+**/*.tiff
+
+# Logs
+*.log

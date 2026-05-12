@@ -1,4 +1,4 @@
-# IITB NDVI Framework
+# NDVI Framework
 
 ## Project Overview
 
